@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nous Contacter</title>
+    <link rel="stylesheet" href="/contact.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+</head>
+<body>
+
+    <%- include('composant/navbar.ejs') %>
+
+    <h1>Nous Contacter</h1>
+
+    <div class="container m-5 p-5">
+        <div class="row text-center">
+          <p>Contact Us</p>
+            <h3>Contact For Any Query</h3>
+          <div class="col my-4 m-5">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d24860.912476284575!2d-17.47507773652963!3d14.700441629877242!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xec1729ca1bf2a41%3A0x7c056ce772b26119!2sRadisson%20Blu%20Hotel%2C%20Dakar%20Sea%20Plaza!5e0!3m2!1sfr!2ssn!4v1730387729141!5m2!1sfr!2ssn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="iba1"></iframe>
+          </div>
+          <div class="col">
+            <form action="/submit_form" method="POST">
+              <div class="mb-3">
+                  <label for="name" class="form-label"></label>
+                  <input type="text" class="form-control" id="name" name="name" placeholder="Nom" required>
+              </div>
+              <div class="mb-3">
+                  <label for="email" class="form-label"></label>
+                  <input type="email" class="form-control" id="email" name="email" placeholder="Email" required>
+              </div>
+              <div class="mb-3">
+                  <label for="subject" class="form-label"></label>
+                  <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+              </div>
+              <div class="mb-3">
+                  <label for="message" class="form-label" ></label>
+                  <textarea class="form-control" id="message" name="message" rows="4" placeholder="Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-warning">Envoyer</button>
+          </form>
+          </div>
+        </div>
+      </div>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+</html>

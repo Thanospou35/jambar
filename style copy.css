@@ -1,0 +1,211 @@
+.winner {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+
+}
+
+
+.badara {
+    border: 1px solid white;
+    border-radius: 18px;
+    box-shadow: 0 0  30px 2px rgba(0, 0, 0, .1);
+    height: 50%;
+}
+
+.reservation-form {
+    background-color: #f5a623;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.reservation-form:hover {
+    transform: scale(1.2);
+}
+
+form input, form select, form button {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input {
+    background: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+form input {
+    border: 1px solid white;
+   
+}
+
+form input::placeholder {
+    color: #fff;
+    font-weight: bold;
+}
+
+form select, form button {
+    border: 1px solid white;
+    border-radius: 6px;
+    background: transparent;
+    color: #fff;
+    
+}
+
+iframe {
+    height: 800px;
+    border: 1px solid #fff;
+    border-radius: 15px;
+}
+
+.manga1 {
+    height: 330px;
+    width: 400px;
+    border-radius: 30px;
+}
+
+.momora {
+    background-color: #fff;
+    border: 1px solid #161515;
+    border-radius: 25px;
+    box-shadow: 0 0 15px 2px rgba(15, 15, 15, 0.1);
+    height: 300px;
+    width: 50%;
+    transition: 2s;
+}
+
+.momora:hover {
+    border: 1px solid yellow;
+    transform: scale(1.2);
+    z-index: 1;
+    box-shadow: 0 0 30px 2px rgba(15, 15, 15, 0.1);
+
+}
+
+.momora2 {
+    background-color: #fff;
+    border: 1px solid #767474;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 2px rgba(15, 15, 15, 0.1);
+    height: 250px;
+    transition: 3s;
+}
+
+.momora2:hover {
+    border: 1px solid yellow;
+    transform: scale(1.4);
+    z-index: 1;
+    box-shadow: 0 0 30px 3px rgba(2, 179, 244, 0.1);
+}
+
+.burger{
+    width: 45px;
+}
+
+.forza {
+    color: #fff;
+}
+
+.forza:hover {
+    background-color: green;
+    color: #f5a623;
+
+}
+
+.burger2{
+    background-image: url("menu-burger.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.moham {
+    background: #fff;
+    border-radius: 10px;
+    height: 250px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.moham:hover {
+    background-color: #fff;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.iba1 {
+    height: 430px;
+}
+
+.para1, .para2 {
+    border-radius: 10px;
+    background: #fff;
+    height: 250px;
+    width: 75%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.2);
+    margin-left: 65px;
+}
+
+.para1 .para2:hover {
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.social2 {
+    color: #f5a623;
+    margin: 12px;
+}
+
+.social {
+    color: #f5a623;
+    font-size: 30px;
+    margin: 5px;
+}
+
+.magalou {
+    padding: 5px;
+    margin: 15px;
+    transition: 2s;
+}
+
+.magalou:hover {
+    color: #f5a623;
+    transition: 1s;
+    transform: scale(1.4);
+    z-index: 1;
+}
+
+.senegal {
+    background-color: #f3f2f2;
+    background-size: cover;
+    margin-left: auto;
+
+}
+
+.input-group {
+    width: 300px;
+    height: 45px;
+}
+
+.karaba {
+    width: 500px;
+    background: transparent;
+    border: 1px solid #f5a623;
+
+}
+
+.input-group-text {
+    background-color: #f5a623;
+    color: #edecec;
+    height: 50px;
+}
+
+.daven {
+    text-align: center;
+}
